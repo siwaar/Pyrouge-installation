@@ -34,6 +34,7 @@ OK
 
 
 ## Usage example
+```
 from pyrouge import Rouge155
 from pprint import pprint
 
@@ -46,3 +47,4 @@ summary_text = "Poor nations demand trade subsidies from developed nations."
 rouge = Rouge155(n_words=100)
 score = rouge.score_summary(summary_text, ref_texts)
 pprint(score)
+```
