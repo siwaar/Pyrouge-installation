@@ -1,7 +1,7 @@
 # Pyrouge-installation
 How to install Pyrouge for text summarization (only for Linux):
 
-Step 1 : Install Pyrouge from source (not from pip)
+## Step 1 : Install Pyrouge from source (not from pip)
 git clone https://github.com/bheinzerling/pyrouge
 cd pyrouge
 pip install -e .
