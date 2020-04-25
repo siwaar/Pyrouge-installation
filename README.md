@@ -19,6 +19,7 @@ How to install Pyrouge for text summarization (only for Linux):
 
 ## Step 4 : Install libxml parser
 You need to install libxml parser :
+
     - cpan App::cpanminus
     - cpanm XML::DOM
     - cpanm  XML::Parser
@@ -37,6 +38,8 @@ you need to regenerate the Exceptions DB :
 ## Step 6 : Run the tests
     - cd ..
     - python -m pyrouge.test
+    
+    
 You should see :
 Ran 11 tests in 6.322s
 OK
