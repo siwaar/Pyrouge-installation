@@ -3,8 +3,8 @@ How to install Pyrouge for text summarization (only for Linux):
 
 ## Step 1 : Install Pyrouge from source 
 (not from pip => pip uninstall pyrouge if it's already installed)
-git clone https://github.com/bheinzerling/pyrouge
-cd pyrouge
+ - git clone https://github.com/bheinzerling/pyrouge
+ - cd pyrouge
 pip install -e .
 
 ## Step 2 : Install official ROUGE script
