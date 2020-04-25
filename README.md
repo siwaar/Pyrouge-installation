@@ -27,7 +27,7 @@ You need to install libxml parser :
 
 
 ## Step 5 : Regenerate the Exceptions DB
-you need to regenerate the Exceptions DB : 
+
     - cd  rouge/tools/ROUGE-1.5.5/data/
     - rm WordNet-2.0.exc.db
     - cd WordNet-2.0-Exceptions/
