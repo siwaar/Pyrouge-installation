@@ -12,9 +12,12 @@ How to install Pyrouge for text summarization (only for Linux):
     - git clone https://github.com/andersjo/pyrouge.git rouge
 
 ## Step 3 : Point Pyrouge to official rouge script
+
     - pyrouge_set_rouge_path "/workspace/Transformers_BERT/pyrouge/rouge/tools/ROUGE-1.5.5"
- The path given to pyrouge should be absolute path ! (to get the absolute path : readlink -f directory)
     - python setup.py install
+    
+ The path given to pyrouge should be absolute path ! (to get the absolute path : readlink -f directory)
+
 
 
 
